@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harvest Counter</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Harvest Counter</h1>
+        <p id="count-up">0</p>
+        <div class="centered-btn">
+            <button onclick="increment()">Increment Count</button>
+            <button onclick="save()" >Save Count</button>
+        </div>
+        <p>Accumulated Harvest </p>
+        <div class="total-count">
+           <div class="background-blur"></div>
+           <p class="harvest" id="save-el">Total harvest: </p> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
